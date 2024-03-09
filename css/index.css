@@ -49,9 +49,33 @@ article{
     height: 20px;
     border: 1px solid black;
     overflow: hidden;
+    align-items: center;
 }
 
 .img-input-text img{
     max-width: 20px;
     margin: auto;
+}
+
+button[type="submit"]{
+    color: #f2f3f5;
+    background-color: #5cc0de;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #5cc0de;
+    margin-top: 35px;
+}
+
+button[type="reset"]{
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid black;
+    margin-top: 35px;
 }
