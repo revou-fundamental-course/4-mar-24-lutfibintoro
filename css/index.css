@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+}
+
+article{
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+}
+
+article p{
+    color: blueviolet;
+    padding-left: 2%;
+}
