@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 main, header{
@@ -22,4 +23,35 @@ article{
     height: auto;
     /* border: 1px solid black; */
     padding-left: 2%;
+}
+
+.input-box{
+    background-color: #f2f3f5;
+    padding: 15px;
+}
+
+#Jenis-Kelamin{
+    margin-top: unset;
+    margin-bottom: 7px;
+}
+
+.Usia-Tahun{
+    margin-bottom: unset;
+}
+
+#Berat-Badan-kg{
+    margin-top: 25px;
+    margin-bottom: unset;
+}
+
+.img-input-text{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.img-input-text img{
+    max-width: 20px;
+    margin: auto;
 }
