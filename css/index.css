@@ -12,10 +12,11 @@ h1, h2{
     height: fit-content;
     /* border: 1px solid black; */
     padding-left: 2%;
-    font-weight: bold;
-    font-size: larger;
+    font-weight: unset;
+    font-size: x-large;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
+    margin-bottom: 3px;
 }
 
 article{
@@ -45,11 +46,8 @@ article{
 }
 
 .img-input-text{
-    width: 20px;
-    height: 20px;
-    border: 1px solid black;
-    overflow: hidden;
-    align-items: center;
+    border: 1px solid rgb(118, 118, 118);
+    border-top: #f2f3f5;
 }
 
 .img-input-text img{
@@ -78,4 +76,8 @@ button[type="reset"]{
     padding-right: 8px;
     border: 1px solid black;
     margin-top: 35px;
+}
+
+input[type="number"]{
+    width: 95%;
 }
