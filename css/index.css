@@ -31,9 +31,16 @@ article{
     padding: 15px;
 }
 
+.output-box{
+    background-color: #f2f3f5;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
 #Jenis-Kelamin{
     margin-top: unset;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 .Usia-Tahun{
@@ -55,10 +62,10 @@ article{
     margin: auto;
 }
 
-button[type="submit"]{
+#submit-data{
     color: #f2f3f5;
     background-color: #5cc0de;
-    border-radius: 2px;
+    border-radius: 3px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 8px;
@@ -67,9 +74,21 @@ button[type="submit"]{
     margin-top: 35px;
 }
 
-button[type="reset"]{
+button[type="button"]{
+    color: #f2f3f5;
+    background-color: #5cc0de;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #5cc0de;
+    margin-top: 10px;
+}
+
+#reset-input{
     background-color: #ffffff;
-    border-radius: 2px;
+    border-radius: 3px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 8px;
@@ -80,4 +99,57 @@ button[type="reset"]{
 
 input[type="number"]{
     width: 95%;
+}
+
+#output{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.consult{
+    color: #f2f3f5;
+    background-color: #5cc0de;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #5cc0de;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.smallest-text{
+    font-size: 13px;
+    list-style-type: none;
+}
+
+ul{
+    padding-left: unset;
+    margin-top: unset;
+}
+
+footer{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    /* border-top: #5cc0de 10px solid; */
+    background-color: #5cc0de;
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+figure{
+    margin: unset;
+}
+
+#app-store{
+    height: 50px;
+}
+
+#google-play{
+    height: 75px;
 }

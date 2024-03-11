@@ -12,7 +12,7 @@
 <body>
     <header>
         <h1>Kalkulator BMI</h1>
-        <h2>Hasil Perhitungan BMI</h2>
+        <h2>Hasil</h2>
     </header>
 
     <main>
@@ -25,31 +25,31 @@
             <form class="input-box" method="get">
                 <section class="gender-input">
                     <p id="Jenis-Kelamin"><b>Jenis Kelamin</b></p>
-                    <input type="radio" name="gender" id="man"><label for="man"><b>Pria</b></label>
-                    <input type="radio" name="gender" id="woman"><label for="woman"><b>Wanita</b></label>
+                    <input type="checkbox" name="gender-male" id="man"><label for="man"><b>Pria</b></label>
+                    <input type="checkbox" name="gender-female" id="woman"><label for="woman"><b>Wanita</b></label>
                 </section>
 
                 <section class="weight-input">
                     <p id="Berat-Badan-kg"><b>Berat Badan (kg)</b></p>
                     <label for="weight" class="img-input-text"><img src="assets/pen_image.png" alt="Q"></label>
-                    <input type="number" id="weight">
+                    <input type="number" name="berat" id="weight">
                 </section>
 
                 <section class="age-imput">
                     <p class="Usia-Tahun"><b>Usia (Tahun)</b></p>
                     <label for="age" class="img-input-text"><img src="assets/pen_image.png" alt="Q"></label>
-                    <input type="number" id="age">
+                    <input type="number" name="usia" id="age">
                 </section>
 
                 <section class="body-height">
                     <p class="Usia-Tahun"><b>Tinggi (cm)</b></p>
                     <label for="height" class="img-input-text"><img src="assets/pen_image.png" alt="Q"></label>
-                    <input type="number" id="height">
+                    <input type="number" name="tinggi" id="height">
                 </section>
 
                 <section class="submit-data">
-                    <button type="submit">Hitung BMI</button>
-                    <button type="reset">restart</button>
+                    <button type="submit" id="submit-data">Hitung BMI</button>
+                    <button type="reset" id="reset-input">restart</button>
                 </section>
             </form>
 
@@ -74,16 +74,59 @@
         </article>
 
         <article>
+            <div class="output-box">
+                <p>kata kata penunjuk berat badan</p>
+                <p id="output">27.7</p>
+                <p class="smallest-text">kata kata berat badan</p>
+                <button type="button">Download Hasil BMI</button>
+            </div>
+
             <p>
-                p11
+                Hasil BMI di anatara <b>sekian</b> dan <b>sekian</b>
             </p>
+
             <p>
-                p22
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
+
+            <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <p>
+                <button type="submit" class="consult">Konsultasi Ahli Gizi Via Aplikas</button>
+                <button type="submit" class="consult">Regristrasi Online Ahli Gizi</button>
+            </p>
+
+            <p>
+                BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu
+                konsultasi lebih lanjut mengenai resiko dan kekhawatiran anda terkait dengan berat badan anda.
+            </p>
+
+            <div class="output-box">
+                <p>Beberapa Penyakit yang berasal dari kegemukan</p>
+                <ul>
+                    <li class="smallest-text">Diabetes</li>
+                    <li class="smallest-text">Hipertensi</li>
+                    <li class="smallest-text">Sakit Jantung</li>
+                    <li class="smallest-text">Osteoarthritis</li>
+                </ul>
+
+                <button type="submit" class="consult">Konsultasi Dokter Via Aplikas</button>
+                <button type="submit" class="consult">Regristrasi Online sekarang</button>
+            </div>
         </article>
     </main>
 
     <footer>
+        <p>Download Aplikasi</p>
+
+        <figure>
+            <img src="assets/Download_on_the_App_Store_Badge.svg.png" alt="" id="app-store"><br>
+            <img src="assets/en_badge_web_generic.png" alt="" id="google-play">
+        </figure>
     </footer>
 </body>
 
