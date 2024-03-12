@@ -2,11 +2,11 @@
 <html lang="id">
 
 <head>
-    <title>Document</title>
+    <title>Kalkulator BMI</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <script type="module" src="js/index.js"></script>
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -25,26 +25,26 @@
             <form class="input-box" method="get">
                 <section class="gender-input">
                     <p id="Jenis-Kelamin"><b>Jenis Kelamin</b></p>
-                    <input type="checkbox" name="gender-male" id="man"><label for="man"><b>Pria</b></label>
-                    <input type="checkbox" name="gender-female" id="woman"><label for="woman"><b>Wanita</b></label>
+                    <input type="radio" name="gender" id="man"><label for="man"><b>Pria</b></label>
+                    <input type="radio" name="gender" id="woman"><label for="woman"><b>Wanita</b></label>
                 </section>
 
                 <section class="weight-input">
                     <p id="Berat-Badan-kg"><b>Berat Badan (kg)</b></p>
                     <label for="weight" class="img-input-text"><img src="assets/pen_image.png" alt="Q"></label>
-                    <input type="number" name="berat" id="weight">
+                    <input type="number" name="berat" id="weight" required>
                 </section>
 
                 <section class="age-imput">
                     <p class="Usia-Tahun"><b>Usia (Tahun)</b></p>
                     <label for="age" class="img-input-text"><img src="assets/pen_image.png" alt="Q"></label>
-                    <input type="number" name="usia" id="age">
+                    <input type="number" name="usia" id="age" required>
                 </section>
 
                 <section class="body-height">
                     <p class="Usia-Tahun"><b>Tinggi (cm)</b></p>
                     <label for="height" class="img-input-text"><img src="assets/pen_image.png" alt="Q"></label>
-                    <input type="number" name="tinggi" id="height">
+                    <input type="number" name="tinggi" id="height" required>
                 </section>
 
                 <section class="submit-data">
@@ -123,8 +123,8 @@
         <p>Download Aplikasi</p>
 
         <figure>
-            <img src="assets/Download_on_the_App_Store_Badge.svg.png" alt="" id="app-store"><br>
-            <img src="assets/en_badge_web_generic.png" alt="" id="google-play">
+            <img src="assets/Download_on_the_App_Store_Badge.svg.png" alt="" id="app-store">
+            <img src="assets/playstore_new.png" alt="" id="google-play">
         </figure>
     </footer>
 </body>
