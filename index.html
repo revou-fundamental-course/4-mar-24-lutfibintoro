@@ -48,8 +48,8 @@
                 </section>
 
                 <section class="submit-data">
-                    <button type="submit" id="submit-data">Hitung BMI</button>
-                    <button type="reset" id="reset-input">restart</button>
+                    <button type="submit" id="submit-data" onclick="data_submit()">Hitung BMI</button>
+                    <button type="reset" id="reset-input" onclick="reset_BMI()">Reset</button>
                 </section>
             </form>
 
@@ -69,30 +69,34 @@
 
             <p>
                 Kalkulator akan memberikan anda gambaran tentang perbandingan berat badan anda dengan nilai umum Indek Massa Tubuh ( atau BMI )
-                dihitung sebagai berat badan anda ( dalam Kilogram ) dibagi dengan kuadrat tinggi badan anda ( dalam Meter ) atau BMI = Kg/M<sup>2</sup>
+                dihitung sebagai berat badan anda ( dalam Kilogram ) dibagi dengan kuadrat tinggi badan anda ( dalam Meter ) atau BMI = Kg/M^2
             </p>
         </article>
 
         <article>
             <div class="output-box">
-                <p>kata kata penunjuk berat badan</p>
-                <p id="output">27.7</p>
-                <p class="smallest-text">kata kata berat badan</p>
+                <p id="change_1">Isi form untuk mendapatkan Hasil</p>
+                <p class="output" id="change_2">0</p>
+                <p class="smallest-text" id="change_3">Isi form untuk mendapatkan hasil</p>
                 <button type="button">Download Hasil BMI</button>
             </div>
 
             <p>
-                Hasil BMI di anatara <b>sekian</b> dan <b>sekian</b>
+                Hasil BMI di anatara <b id="change_4">0</b> dan <b id="change_5">0</b>
             </p>
 
-            <p>
-                kacau ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p id="change_6">
+                Menjaga berat badan merupakan salah satu kunci utama untuk memelihara kesehatan yang optimal. Melalui gaya hidup yang
+                seimbang, kita dapat menghindari risiko berbagai penyakit kronis seperti obesitas, diabetes, dan penyakit jantung. Oleh
+                karena itu, sangat penting untuk memperhatikan pola makan dengan baik.
             </p>
 
-            <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p id="change_7">
+                Penting untuk memilih makanan yang sehat dan bergizi. Konsumsilah makanan yang kaya akan serat, vitamin, dan mineral,
+                serta hindari makanan yang tinggi lemak jenuh dan gula tambahan. Perbanyaklah mengonsumsi buah-buahan, sayuran,
+                biji-bijian utuh, dan protein rendah lemak seperti ikan dan daging tanpa lemak. Selain itu, pastikan untuk minum air
+                dalam jumlah yang cukup untuk menjaga hidrasi tubuh. Dengan menjaga pola makan yang sehat, kita dapat memastikan berat
+                badan tetap ideal dan meningkatkan kesehatan secara keseluruhan.
             </p>
 
             <p>
@@ -106,12 +110,12 @@
             </p>
 
             <div class="output-box">
-                <p>Beberapa Penyakit yang berasal dari kegemukan</p>
+                <p id="change_8">Beberapa keuntungan memiliki berat badan ideal</p>
                 <ul>
-                    <li class="smallest-text">Diabetes</li>
-                    <li class="smallest-text">Hipertensi</li>
-                    <li class="smallest-text">Sakit Jantung</li>
-                    <li class="smallest-text">Osteoarthritis</li>
+                    <li class="smallest-text" id="change_9">Meningkatkan kepercayaan diri</li>
+                    <li class="smallest-text" id="change_10">Mengurangi penyakit jantung</li>
+                    <li class="smallest-text" id="change_11">Kualitas tidur meningkat</li>
+                    <li class="smallest-text" id="change_12">Energi meningkat</li>
                 </ul>
                 <a href="https://www.alodokter.com" target="_blank"><button type="submit" class="consult">Konsultasi Dokter Via Aplikas</button></a>
                 <a href="https://www.alodokter.com" target="_blank"><button type="submit" class="consult">Regristrasi Online sekarang</button></a>

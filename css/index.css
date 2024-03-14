@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'serif', 'Times New Roman', Times;
 }
 
 main, header{
@@ -125,7 +125,7 @@ input[type="number"]{
     width: 95%;
 }
 
-#output{
+.output{
     font-size: 35px;
     margin-top: 10px;
     margin-bottom: 20px;
