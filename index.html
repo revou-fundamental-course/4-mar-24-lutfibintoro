@@ -48,8 +48,8 @@
                 </section>
 
                 <section class="submit-data">
-                    <button type="submit" id="submit-data" onclick="data_submit()">Hitung BMI</button>
-                    <button type="reset" id="reset-input" onclick="reset_BMI()">Reset</button>
+                    <button type="submit" id="submit-data" onclick="data_submit(event)">Hitung BMI</button>
+                    <button type="reset" id="reset-input">Reset</button>
                 </section>
             </form>
 
@@ -79,10 +79,11 @@
                 <p class="output" id="change_2">0</p>
                 <p class="smallest-text" id="change_3">Isi form untuk mendapatkan hasil</p>
                 <button type="button">Download Hasil BMI</button>
+                <button type="reset" id="reset-all" onclick="reset_BMI()">Reset Hasil</button>
             </div>
 
             <p>
-                Hasil BMI di anatara <b id="change_4">0</b> dan <b id="change_5">0</b>
+                Hasil BMI di antara <b id="change_4">0</b> dan <b id="change_5">0</b>
             </p>
 
             <p id="change_6">
@@ -100,7 +101,7 @@
             </p>
 
             <p>
-                <a href="https://www.alodokter.com" target="_blank"><button type="submit" class="consult">Ahli Gizi Via Aplikas</button></a>
+                <a href="https://www.alodokter.com" target="_blank"><button type="submit" class="consult">Konsultasi Ahli Gizi Via Aplikas</button></a>
                 <a href="https://www.alodokter.com" target="_blank"><button type="submit" class="consult">Regristrasi Online Ahli Gizi</button></a>
             </p>
 

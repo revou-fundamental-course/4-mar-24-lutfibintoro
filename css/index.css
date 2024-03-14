@@ -113,11 +113,22 @@ button[type="button"]:active{
     margin-top: 35px;
 }
 
-#reset-input:hover{
+#reset-all{
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+#reset-input:hover, #reset-all:hover{
     box-shadow: 3px 3px 7px #305763;
 }
 
-#reset-input:active{
+#reset-input:active, #reset-all:active{
     box-shadow: unset;
 }
 
