@@ -1,7 +1,3 @@
-function reset_BMI(){
-    location.reload();
-    return;
-}
 
 function condition_func(BMI, event){
 
@@ -20,7 +16,7 @@ function condition_func(BMI, event){
     var change_11 = document.getElementById("change_11");
     var change_12 = document.getElementById("change_12");
     
-    if(BMI < 18.5){ //kekurangan berat badan
+    if((BMI > 0) && (BMI < 18.5)){ //kekurangan berat badan
 
         change_1.textContent = "Kekurangan berat badan";
         change_2.textContent = BMI;
@@ -59,7 +55,7 @@ function condition_func(BMI, event){
         change_11.textContent = "Sakit jantung";
         change_12.textContent = "Osteoarthritis";
 
-    }else{ //obesitas
+    }else if((BMI >= 30.0) && (BMI < 100.0)){ //obesitas
         
         change_1.textContent = "Obesitas";
         change_2.textContent = BMI;
@@ -74,6 +70,20 @@ function condition_func(BMI, event){
         change_11.textContent = "Gagal jantung";
         change_12.textContent = "Osteoarthritis";
 
+    }else{
+
+        change_1.textContent = "Isi form untuk mendapatkan Hasil";
+        change_2.textContent = "0";
+        change_3.textContent = "Isi form untuk mendapatkan hasil";
+        change_4.textContent = "0";
+        change_5.textContent = "0";
+        change_6.textContent = "Menjaga berat badan merupakan salah satu kunci utama untuk memelihara kesehatan yang optimal. Melalui gaya hidup yang seimbang, kita dapat menghindari risiko berbagai penyakit kronis seperti obesitas, diabetes, dan penyakit jantung. Oleh karena itu, sangat penting untuk memperhatikan pola makan dengan baik.";
+        change_7.textContent = "Penting untuk memilih makanan yang sehat dan bergizi. Konsumsilah makanan yang kaya akan serat, vitamin, dan mineral, serta hindari makanan yang tinggi lemak jenuh dan gula tambahan. Perbanyaklah mengonsumsi buah-buahan, sayuran, biji-bijian utuh, dan protein rendah lemak seperti ikan dan daging tanpa lemak. Selain itu, pastikan untuk minum air dalam jumlah yang cukup untuk menjaga hidrasi tubuh. Dengan menjaga pola makan yang sehat, kita dapat memastikan berat badan tetap ideal dan meningkatkan kesehatan secara keseluruhan.";
+        change_8.textContent = "Beberapa keuntungan memiliki berat badan ideal";
+        change_9.textContent = "Meningkatkan kepercayaan diri";
+        change_10.textContent = "Mengurangi penyakit jantung";
+        change_11.textContent = "Kualitas tidur meningkat";
+        change_12.textContent = "Energi meningkat";
     }
 
     return;
