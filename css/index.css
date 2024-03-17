@@ -199,3 +199,18 @@ figure{
     height: 50px;
     margin: 1px;
 }
+
+#h1_main, #h2_main{
+    padding-left: 0px;
+}
+
+@media screen and (max-width: 500px) {
+    header, main{
+        display: block;
+    }
+
+    article{
+        width: 100%;
+        padding-left: 0px;
+    }
+}
