@@ -39,7 +39,7 @@ function condition_func(BMI, event){
         change_4.textContent = "18.5";
         change_5.textContent = "25";
         change_6.textContent = "Anda dalam kategori berat badan ideal, menjaga berat badan merupakan salah satu kunci utama untuk memelihara kesehatan yang optimal. Melalui gaya hidup yang seimbang, kita dapat menghindari risiko berbagai penyakit kronis seperti obesitas, diabetes, dan penyakit jantung. Oleh karena itu, sangat penting untuk memperhatikan pola makan dengan baik.";
-        change_7.textContent = "Jika BMI anda berada dalam kategori ini maka anda dianjurkan untuk menjaga berat badan.";
+        change_7.textContent = "Jika BMI anda berada dalam kategori ini maka anda dianjurkan untuk menjaga berat badan, dan terus melakukan pola hidup sehat.";
 
     }else if((BMI >= 25.0) && (BMI < 30.0)){ //kelebihan berat badan
 
